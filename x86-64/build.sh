@@ -32,6 +32,9 @@ PACKAGES="$PACKAGES luci-i18n-xupnpd-zh-cn"
 PACKAGES="$PACKAGES luci-app-homeassistant"
 PACKAGES="$PACKAGES luci-app-iptvhelper"
 PACKAGES="$PACKAGES luci-app-p910nd"
+PACKAGES="$PACKAGES luci-app-mwan3"
+PACKAGES="$PACKAGES luci-app-store"
+PACKAGES="$PACKAGES luci-app-qbittorrent"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
