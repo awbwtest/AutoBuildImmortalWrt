@@ -23,6 +23,17 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
+PACKAGES="$PACKAGES luci-app-alist"
+PACKAGES="$PACKAGES luci-app-iptvhelper"
+PACKAGES="$PACKAGES luci-app-homeassistant"
+PACKAGES="$PACKAGES luci-app-adbyby-plus"
+PACKAGES="$PACKAGES luci-app-msd_lite"
+PACKAGES="$PACKAGES luci-app-zerotier"
+PACKAGES="$PACKAGES luci-app-vlmcsd"
+PACKAGES="$PACKAGES luci-app-p910nd"
+PACKAGES="$PACKAGES luci-app-mwan3"
+PACKAGES="$PACKAGES luci-app-store"
+PACKAGES="$PACKAGES luci-app-qbittorrent"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
